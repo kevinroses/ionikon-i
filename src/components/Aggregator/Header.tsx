@@ -26,7 +26,7 @@ const Name = styled(Heading)`
 const Header = ({ children }) => {
 	return (
 		<Wrapper>
-			
+			{children}
 		</Wrapper>
 	);
 };
