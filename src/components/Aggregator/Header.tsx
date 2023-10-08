@@ -26,23 +26,7 @@ const Name = styled(Heading)`
 const Header = ({ children }) => {
 	return (
 		<Wrapper>
-			<Name
-				fontSize={['26px', '26px', '32px', '32px']}
-				display="flex"
-				alignItems="center"
-				onClick={() => window.open('https://swap.defillama.com/')}
-				cursor="pointer"
-			>
-				<Image
-					src={loaderImg.src}
-					w={['28px', '28px', '36px', '36px']}
-					h={['28px', '28px', '36px', '36px']}
-					mr="8px"
-					alt="logo"
-				/>
-				LlamaSwap
-			</Name>
-			{children}
+			
 		</Wrapper>
 	);
 };
