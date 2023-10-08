@@ -63,7 +63,7 @@ const RoutesPreview = () => {
 	return (
 		<Flex pt="30px" flexDir="column" justifyContent="space-around" h="100%">
 			<Header>
-				<MainIcon>{LlamaIcon}</MainIcon>
+				<MainIcon></MainIcon>
 
 				<IconsBody>
 					{[...AggIcons, ...AggIcons].map((Icon, i) => (
@@ -73,22 +73,18 @@ const RoutesPreview = () => {
 			</Header>
 			<Box zIndex={1}>
 				<Heading size={'md'} textAlign="center" mt={'4'}>
-					The Aggregator of Aggregators
+					Tokenizamos empresas escalables y de gran impacto.
 				</Heading>
 				<CheckBody>
-					<CheckWithText text="Totally Free" />
-					<CheckWithText text="Gas Estimation" />
-					<CheckWithText text="Preserves Privacy" />
+					<CheckWithText text="Totalmente Libre" />
+					<CheckWithText text="Estimación de Gas" />
+					<CheckWithText text="Seguridad y Desarrollo" />
 				</CheckBody>
 
 				<Text color={'gray.300'} textAlign="center" mt={6}>
-					LlamaSwap looks for the best route for your trade <br /> among a variety of Dex Aggregators, guaranteeing you{' '}
-					<br /> the best execution prices in DeFi.
-					<br /> <br /> Try it now or{' '}
-					<Link href="https://twitter.com/defillama/status/1609989799653285888" isExternal textDecoration={'underline'}>
-						learn more
-						<ExternalLinkIcon mx="4px" mb="3px" />
-					</Link>
+					IonikonSwap busca la mejor ruta para su comercio <br/> entre una variedad de agregadores Tokens, garantizándole
+<br/> los mejores precios de ejecución en DeFi.
+					
 				</Text>
 			</Box>
 		</Flex>
